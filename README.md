@@ -9,9 +9,9 @@ C'est surtout un petit exercice pour apprendre les **conditions, les boucles et 
 ## Compilation
 
 ```bash
-nasm -f elf64 compteur.asm -o compteur.o
-ld compteur.o -o compteur
-./compteur
+nasm -f elf64 main.s -o counting.o
+ld couting.o -o couting
+./couting
 ```
 
 Made by **KirobotDev**.
